@@ -2,7 +2,5 @@ apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
 kind: Repository
 metadata:
   name: test-sb-app-repository
-  labels:
-    foo: bar
 spec:
   url: https://github.com/dev-RHTAP-org/springboot-app
